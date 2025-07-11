@@ -14,7 +14,7 @@ print("--- Data Generated ---")
 print(f"Sizes (X):\n{X.flatten()}")
 print(f"Prices (y):\n{y}")
 print("-" * 20)
-
+ 
 # --- 2. Split data into training and testing sets ---
 # This is crucial for evaluating how well our model generalizes to new, unseen data.
 # We'll use 80% for training and 20% for testing.
