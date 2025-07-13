@@ -25,7 +25,7 @@ print(f"Training data points: {len(X_train)}")
 print(f"Testing data points: {len(X_test)}")
 print("-" * 20)
 
-# --- 3. Create and train the Linear Regression model ---
+# --- 3. Create and train the  Linear Regression model ---
 # We're creating an 'instance' of the LinearRegression model.
 model = LinearRegression()
 
