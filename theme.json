@@ -1,0 +1,8 @@
+{
+  "label": "Custom HubL Theme",
+  "screenshot": "./images/logo.png",
+  "assets": {
+    "css": ["css/styles.css"],
+    "js": ["js/main.js"]
+  }
+}

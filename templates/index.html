@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ content.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{ standard_header_includes }}
+    <link rel="stylesheet" href="{{ get_asset_url('css/styles.css') }}">
+  </head>
+  <body>
+    <header>
+      <img src="{{ theme.logo.src }}" alt="Logo" class="logo" />
+      <h1>{{ content.title }}</h1>
+    </header>
+
+    <main>
+      <p>Welcome to your HubL-powered theme!</p>
+      <p>Today's date: {{ local_dt|datetimeformat('%B %d, %Y') }}</p>
+      {% if request_contact.name %}
+        <p>Hello, {{ request_contact.name }}!</p>
+      {% endif %}
+    </main>
+
+    <footer>
+      <p>&copy; {{ year }} - Powered by HubSpot</p>
+    </footer>
+
+    <script src="{{ get_asset_url('js/main.js') }}"></script>
+    {{ standard_footer_includes }}
+  </body>
+</html>

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "primary_color",
+    "label": "Primary Color",
+    "type": "color",
+    "default": "#0066ff"
+  },
+  {
+    "name": "logo",
+    "label": "Logo",
+    "type": "image"
+  }
+]
