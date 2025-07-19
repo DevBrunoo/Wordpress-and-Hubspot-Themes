@@ -19,7 +19,7 @@ Inside this repo, you’ll find code and assets from real-world freelance projec
 - 🎨 Front-end code (HTML5, CSS3/SCSS, JavaScript)
 - 🔧 Site optimization, responsiveness, and accessibility improvements
 
----
+----
 
 ## 🧰 Technologies Used
 
