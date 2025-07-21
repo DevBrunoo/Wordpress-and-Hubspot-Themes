@@ -3,7 +3,7 @@
 ## Overview
 The UFC Theme is a custom WordPress theme designed to provide a visually appealing and user-friendly interface for websites related to the Ultimate Fighting Championship (UFC). This theme includes various files that work together to create a cohesive design and functionality.
 
-## File Structure
+## File Structure d
 - **style.css**: Contains the CSS styles for the UFC theme, defining layout, colors, fonts, and other visual aspects.
 - **index.php**: The main entry point of the theme, including the header, footer, and main content of the webpage.
 - **header.php**: Contains the HTML and PHP code for the header section, including the site title and navigation menu.
