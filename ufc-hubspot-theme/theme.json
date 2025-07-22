@@ -1,0 +1,50 @@
+{
+  "name": "UFC HubSpot Theme",
+  "version": "1.0.0",
+  "description": "A HubSpot theme focused on UFC, featuring custom modules and templates.",
+  "author": "Your Name",
+  "license": "MIT",
+  "settings": {
+    "primaryColor": "#FF0000",
+    "secondaryColor": "#000000",
+    "fontFamily": "Arial, sans-serif",
+    "header": {
+      "logo": "images/logo.png",
+      "navigation": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "label": "About",
+          "url": "/about"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2023 UFC Theme. All rights reserved.",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "platform": "Twitter",
+          "url": "https://twitter.com"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://instagram.com"
+        }
+      ]
+    }
+  }
+}

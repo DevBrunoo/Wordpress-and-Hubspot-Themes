@@ -1,0 +1,19 @@
+<?php
+// This file defines a custom module for the HubSpot UFC theme.
+
+function custom_ufc_module() {
+    // Custom functionality for the UFC module can be added here.
+    // For example, you can create a custom field for UFC events or fighters.
+    
+    // Example of a simple output
+    return '<div class="custom-ufc-module">
+                <h2>UFC Events</h2>
+                <p>Stay tuned for the latest UFC events and updates!</p>
+            </div>';
+}
+
+// Register the custom module
+if (function_exists('register_module')) {
+    register_module('custom_ufc_module', 'Custom UFC Module', 'Displays UFC-related content.');
+}
+?>

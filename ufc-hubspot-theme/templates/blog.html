@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Blog</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <?php include 'header.html'; ?>
+
+    <main>
+        <article>
+            <h1>{{ blog.title }}</h1>
+            <p>Published on: {{ blog.publish_date }}</p>
+            <div class="blog-content">
+                {{ blog.content }}
+            </div>
+        </article>
+    </main>
+
+    <?php include 'footer.html'; ?>
+</body>
+</html>
