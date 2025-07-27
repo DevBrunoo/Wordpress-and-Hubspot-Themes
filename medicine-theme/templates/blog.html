@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Medicine Theme</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Include header partial -->
+        {% include '../partials/header.html' %}
+    </header>
+
+    <main>
+        <article class="blog-post">
+            <h1>{{ post.title }}</h1>
+            <p class="post-meta">Published on {{ post.date }}</p>
+            <div class="post-content">
+                {{ post.content }}
+            </div>
+        </article>
+        
+        <nav class="pagination">
+            {% if previous_post %}
+                <a href="{{ previous_post.url }}">Previous: {{ previous_post.title }}</a>
+            {% endif %}
+            {% if next_post %}
+                <a href="{{ next_post.url }}">Next: {{ next_post.title }}</a>
+            {% endif %}
+        </nav>
+    </main>
+
+    <footer>
+        <!-- Include footer partial -->
+        {% include '../partials/footer.html' %}
+    </footer>
+</body>
+</html>

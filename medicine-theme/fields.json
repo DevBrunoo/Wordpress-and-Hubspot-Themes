@@ -1,0 +1,75 @@
+{
+  "fields": [
+    {
+      "name": "site_title",
+      "label": "Site Title",
+      "type": "text",
+      "required": true,
+      "default": "Your Medical Site Title"
+    },
+    {
+      "name": "site_description",
+      "label": "Site Description",
+      "type": "textarea",
+      "required": true,
+      "default": "A brief description of your medical site."
+    },
+    {
+      "name": "logo",
+      "label": "Logo",
+      "type": "image",
+      "required": true
+    },
+    {
+      "name": "primary_color",
+      "label": "Primary Color",
+      "type": "color",
+      "required": true,
+      "default": "#007bff"
+    },
+    {
+      "name": "secondary_color",
+      "label": "Secondary Color",
+      "type": "color",
+      "required": false,
+      "default": "#6c757d"
+    },
+    {
+      "name": "footer_text",
+      "label": "Footer Text",
+      "type": "textarea",
+      "required": false,
+      "default": "© 2023 Your Medical Site. All rights reserved."
+    },
+    {
+      "name": "contact_email",
+      "label": "Contact Email",
+      "type": "email",
+      "required": true,
+      "default": "contact@yourmedicalsitename.com"
+    },
+    {
+      "name": "social_links",
+      "label": "Social Media Links",
+      "type": "group",
+      "required": false,
+      "fields": [
+        {
+          "name": "facebook",
+          "label": "Facebook URL",
+          "type": "url"
+        },
+        {
+          "name": "twitter",
+          "label": "Twitter URL",
+          "type": "url"
+        },
+        {
+          "name": "linkedin",
+          "label": "LinkedIn URL",
+          "type": "url"
+        }
+      ]
+    }
+  ]
+}
