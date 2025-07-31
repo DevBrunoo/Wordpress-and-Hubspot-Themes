@@ -1,0 +1,70 @@
+/*
+Theme Name: Chemical Theme
+Theme URI: https://example.com/chemical-theme
+Author: Your Name
+Author URI: https://example.com
+Description: A WordPress theme designed for chemical-related content, featuring a clean and modern layout.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: chemical, science, clean, modern
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #0073aa;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #005177;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidebar {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    color: #0073aa;
+}
+
+.button {
+    background: #0073aa;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #005177;
+}
