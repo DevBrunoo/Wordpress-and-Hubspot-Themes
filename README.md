@@ -7,7 +7,7 @@ Welcome to my repository of freelance development projects! This space showcases
 
 These projects are focused on delivering high-performance, responsive, and client-focused websites for various businesses and industries.
 
----
+--
 
 ## 🛠️ What You'll Find Here
 
