@@ -13,7 +13,7 @@ These projects are focused on delivering high-performance, responsive, and clien
 
 Inside this repo, you’ll find code and assets from real-world freelance projects, including:
 
-- ✨ Custom WordPress themes and functions (`functions.php`, custom post types, ACF integrations)
+- ✨ Custom WordPress themes and functions (`functions.php`, custom post types, ACF integrations) DevBrunoo
 - 💡 Reusable PHP snippets for WordPress development
 - 🧩 HubL templates and modules for HubSpot CMS
 - 🎨 Front-end code (HTML5, CSS3/SCSS, JavaScript)
