@@ -27,7 +27,7 @@ Inside this repo, you’ll find code and assets from real-world freelance projec
 - **HubL** – HubSpot CMS templating  
 - **HTML/CSS/JS** – Clean, responsive front-end design  
 - **WordPress CMS** – Custom themes, ACF, WPBakery, Elementor  
-- **HubSpot CMS** – Custom modules, themes, and email templates  
+- **HubSpot CMS** – Custom modules, themes, and email templates. 
 
 ---
 
