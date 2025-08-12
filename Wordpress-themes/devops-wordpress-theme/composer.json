@@ -1,0 +1,16 @@
+{
+    "name": "devops-wordpress-theme",
+    "description": "A WordPress theme focused on DevOps practices, integrating CI/CD tools and deployment scripts.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevOps\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,59 @@
+// This is the main SCSS file for the DevOps WordPress theme.
+// It allows for the use of variables, nesting, and other SCSS features.
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Helvetica Neue', Arial, sans-serif;
+
+body {
+    font-family: $font-stack;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px 0;
+
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    nav {
+        margin-top: 10px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                display: inline;
+                margin-right: 15px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+
+    p {
+        margin: 0;
+        font-size: 0.9em;
+    }
+}
+
+// Additional styles can be added below as needed.
