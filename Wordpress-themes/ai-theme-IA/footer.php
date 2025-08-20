@@ -5,7 +5,7 @@
 
 <footer>
     <div class="footer-content">
-        <p>&copy; <?php echo date('Y'); ?> AI Theme. All rights reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> AI Theme in WordPress. All rights reserved.</p>
         <nav>
             <?php
             wp_nav_menu(array(
