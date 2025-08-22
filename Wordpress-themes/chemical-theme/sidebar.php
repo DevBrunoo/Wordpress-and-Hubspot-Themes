@@ -5,6 +5,6 @@
         <li><a href="#">Chemical Reactions</a></li>
         <li><a href="#">Laboratory Equipment</a></li>
         <li><a href="#">Chemical Resources</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Contact Us, Okay </a></li>
     </ul>
 </div>
