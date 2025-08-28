@@ -4,7 +4,7 @@
  *
  * This is the template that displays all pages by default.
  * Please note that this is a generic template and can be customized
- * further based on specific requirements. Ok
+ * further based on specific requirements. 
  *
  * @package ChemicalTheme
  */
