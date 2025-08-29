@@ -1,5 +1,5 @@
 <?php
-// This file contains theme functions and features for the Chemical theme.
+// This file contains  theme functions and features for the Chemical theme.
 
 function chemical_theme_setup() {
     // Add support for post thumbnails
