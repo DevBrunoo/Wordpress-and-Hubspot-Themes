@@ -1,0 +1,60 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #4a4a4a;
+    text-align: center;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.religion-content {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.religion-content h2 {
+    color: #6a1b9a;
+}
+
+.religion-content p {
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4a0072;
+}

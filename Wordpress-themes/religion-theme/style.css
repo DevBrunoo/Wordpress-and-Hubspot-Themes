@@ -1,0 +1,59 @@
+/*
+Theme Name: Religion Theme
+Theme URI: https://example.com/religion-theme
+Author: Your Name
+Author URI: https://example.com
+Description: A WordPress theme focused on religious content, featuring a clean and serene design.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: religion, spirituality, faith, church, community
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.religion-content {
+    margin: 20px 0;
+}
