@@ -1,7 +1,7 @@
 // filepath: /devops-theme/devops-theme/functions.php
 <?php
 function devops_theme_setup() {
-    // Add support for automatic feed links
+    // Add support for automatic feed links 
     add_theme_support('automatic-feed-links');
 
     // Add support for post thumbnails
