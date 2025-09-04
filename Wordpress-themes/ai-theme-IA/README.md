@@ -1,4 +1,4 @@
-# AI Theme
+# AI Theme Ok
 
 ## Description
 The AI Theme is a WordPress theme designed to showcase artificial intelligence features. It provides a clean and modern interface for displaying AI-related content, including dashboards and widgets.cok
