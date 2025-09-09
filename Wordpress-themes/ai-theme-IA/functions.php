@@ -21,6 +21,9 @@ function ai_theme_scripts() {
     // Enqueue custom styles
     wp_enqueue_style('ai-custom-style', get_template_directory_uri() . '/assets/css/style.css');
 
+    // Enqueue custom styles
+    wp_enqueue_style('ai-custom-style', get_template_directory_uri() . '/assets/css/style.css');
+
     // Enqueue custom JavaScript for AI features
     wp_enqueue_script('ai-features-script', get_template_directory_uri() . '/assets/js/ai-features.js', array('jquery'), null, true);
 }

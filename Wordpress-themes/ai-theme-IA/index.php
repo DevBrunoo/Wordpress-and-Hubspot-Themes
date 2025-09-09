@@ -20,3 +20,4 @@
     <?php wp_footer(); ?>
 </body>
 </html>
+<!-- HTML FOR INTERATION IN FRONT -->
